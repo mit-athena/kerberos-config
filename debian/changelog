@@ -1,3 +1,9 @@
+debathena-kerberos-config (1.18) unstable; urgency=low
+
+  * Add [domain_realm] mapping for EXCHANGE.MIT.EDU (Trac: #1436)
+
+ -- Jonathan Reed <jdreed@mit.edu>  Thu, 27 Mar 2014 18:49:28 -0400
+
 debathena-kerberos-config (1.17) unstable; urgency=low
 
   * Remove dependency on krb5-clients
