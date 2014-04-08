@@ -1,3 +1,12 @@
+debathena-kerberos-config (1.19) unstable; urgency=low
+
+  * Modernize ATHENA.MIT.EDU configuration:
+  * Remove the default port number from kdc specifications; it is redundant
+  * Remove default_domain, used only used for mapping krb4 names to krb5 names
+  * Add a master_kdc entry
+
+ -- Benjamin Kaduk <kaduk@mit.edu>  Tue, 08 Apr 2014 13:19:33 -0400
+
 debathena-kerberos-config (1.18) unstable; urgency=low
 
   * Add [domain_realm] mapping for EXCHANGE.MIT.EDU (Trac: #1436)
