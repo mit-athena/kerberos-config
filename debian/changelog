@@ -1,3 +1,13 @@
+debathena-kerberos-config (1.20) unstable; urgency=low
+
+  * Stop setting allow_weak_crypto; all MIT services are believed to be
+    compatible with strong enctypes (Trac: #1308)
+  * Modernize CSAIL.MIT.EDU configuration:
+    - Remove default_domain, used only used for mapping krb4 names to krb5 names
+    - Remove krb524_server, since krb4 is long-dead
+
+ -- Benjamin Kaduk <kaduk@mit.edu>  Mon, 23 Feb 2015 10:49:00 -0500
+
 debathena-kerberos-config (1.19) unstable; urgency=low
 
   * Modernize ATHENA.MIT.EDU configuration:
